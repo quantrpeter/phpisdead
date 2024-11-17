@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Quantr\\Phpisdead\\' => array($baseDir . '/src'),
+    'Quantr\\PhpIsDead\\' => array($baseDir . '/src'),
 );
