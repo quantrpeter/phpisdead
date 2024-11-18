@@ -6,9 +6,19 @@ class Router
 {
 	private $routes = [];
 
-	public function add($path, $func)
+	public function add($path, $class, $func)
 	{
-		$this->routes[$path] = $func;
+		$this->routes[$path] = $class . '::' . $func;
+	}
+
+	public function process($uri)
+	{
+		foreach ($this->routes as $key => $value) {
+			if ($key == $uri) {
+				$request = new Request();
+				call_user_func($value, $request);
+			}
+		}
 	}
 
 	public function toString()

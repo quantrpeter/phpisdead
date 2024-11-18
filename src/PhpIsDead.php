@@ -14,6 +14,6 @@ class PhpIsDead
 	}
 	public function start()
 	{
-		echo "PhpIsDead started";
+		echo "PhpIsDead started<br>";
 	}
 }
