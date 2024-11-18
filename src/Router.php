@@ -8,15 +8,14 @@ class Router
 
 	public function add($path, $func)
 	{
-		$routes[$path] = $func;
+		$this->routes[$path] = $func;
 	}
 
 	public function toString()
 	{
 		$str = "";
-		var_dump($this->routes);
 		foreach ($this->routes as $key => $value) {
-			$str .= $key . ' -> ' . $value . '\n';
+			$str .= $key . ' -> ' . $value . "\n";
 		}
 		return trim($str);
 	}
