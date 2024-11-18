@@ -4,5 +4,16 @@ PhpIsDead is a php framework
 
 https://dev.to/joemoses33/create-a-composer-package-how-to-29kn
 
-run "composer dump-autoload -o" instead of "composer dump-autoload" to see if any error to generate the autoloader
+1. run "composer dump-autoload -o" instead of "composer dump-autoload" to see if any error to generate the autoloader
+
+2. push to github
+
+3. click "update" in https://packagist.org/packages/quantr/phpisdead
+
+4. in your project, rm -fr package.lock vendor
+
+5. composer install
+
+6. you can see the changes
+7. 
 
