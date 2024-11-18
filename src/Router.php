@@ -14,6 +14,7 @@ class Router
 	public function toString()
 	{
 		$str = "";
+		var_dump($this->routes);
 		foreach ($this->routes as $key => $value) {
 			$str .= $key . ' -> ' . $value . '\n';
 		}
