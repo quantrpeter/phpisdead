@@ -1,3 +1,5 @@
+![](img/phpisdead.png)
+
 PhpIsDead is a php framework
 
 # Dev
