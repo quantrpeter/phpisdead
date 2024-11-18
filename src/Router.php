@@ -15,7 +15,7 @@ class Router
 	{
 		$str = "";
 		foreach ($this->routes as $key => $value) {
-			$str .= $key . ' -> ' . $value . "\n";
+			$str .= "> " . $key . ' -> ' . $value . "\n";
 		}
 		return trim($str);
 	}

@@ -15,6 +15,8 @@ PhpIsDead is a php framework
 5. composer install
 
 6. you can see the changes
+7. 
+![](https://peter.quantr.hk/wp-content/uploads/2024/11/composer-point-to-local-library.png)
 
 # Useful link
 
