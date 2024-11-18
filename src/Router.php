@@ -4,7 +4,7 @@ namespace Quantr\PhpIsDead;
 
 class Router
 {
-	private $routes;
+	private $routes = [];
 
 	public function add($path, $func)
 	{
