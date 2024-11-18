@@ -6,7 +6,7 @@ class Router
 {
 	private $routes;
 
-	public function addRoute($path, $func)
+	public function add($path, $func)
 	{
 		$routes[$path] = $func;
 	}
