@@ -65,7 +65,7 @@ $phpIsDead->router->process($_SERVER['REQUEST_URI']);
 
 To add a route to a class function, do this
 
-```
+```php
 $phpIsDead->router->add('/index', IndexController::class, 'index');
 ```
 
