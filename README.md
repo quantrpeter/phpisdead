@@ -80,6 +80,25 @@ $phpIsDead->router->add('/index', IndexController::class, 'index');
 
 ## ORM
 
+**Introduction to Our New ORM Framework**
+
+In the ever-evolving landscape of web development, the need for efficient and intuitive database management has never been more critical. Enter our new ORM (Object-Relational Mapping) framework—a powerful tool designed to streamline database interactions and enhance developer productivity.
+
+Inspired by established frameworks like Eloquent, our ORM aims to provide a seamless and elegant interface for managing database operations. With a focus on simplicity and flexibility, we've built a framework that allows developers to interact with their databases using expressive syntax, making data manipulation both intuitive and enjoyable.
+
+**Key Features**
+- Active Record Implementation: Each model corresponds directly to a database table, allowing for straightforward CRUD operations.
+- Eager Loading: Optimize performance by loading related data in a single query, reducing the number of database calls.
+- Query Builder: A fluent interface for constructing complex queries programmatically, ensuring both readability and maintainability.
+- Migration Support: Easily manage database schema changes with version control, allowing for smooth transitions in your application’s evolution.
+- Validation and Relationships: Built-in validation rules and relationship management simplify data integrity and enhance relational database capabilities.
+
+**Why Choose Our ORM?**
+
+- Developer-Friendly: Our framework prioritizes usability, enabling developers to focus on building features rather than managing database intricacies.
+- Extensible: Designed with extensibility in mind, you can easily add custom functionality to meet your specific requirements.
+- Community-Driven: We value community feedback and contributions, ensuring that our framework evolves alongside the needs of developers.
+
 ## DB Migration
 
 ## Notification
