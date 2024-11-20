@@ -2,7 +2,7 @@
     "name": "quantr/phpisdead",
     "description": "Php framework",
     "type": "library",
-    "license": "MIT",
+    "license": "Apache",
     "autoload": {
         "psr-4": {
             "Quantr\\PhpIsDead\\": "src/"
