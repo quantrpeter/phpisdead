@@ -61,6 +61,15 @@ echo $phpIsDead->router->toString();
 $phpIsDead->router->process($_SERVER['REQUEST_URI']);
 ```
 
+## Route
+
+To add a route to a class function, do this
+
+```
+$phpIsDead->router->add('/index', IndexController::class, 'index');
+```
+
+
 ## Authentication
 
 ## Authorization
