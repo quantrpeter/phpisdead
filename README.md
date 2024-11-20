@@ -35,7 +35,7 @@ composer create-project quantr/phpisdead-sample-project:dev-main
 
 The main file is index.php
 
-```
+```php
 <?php
 
 require_once 'vendor/autoload.php';
