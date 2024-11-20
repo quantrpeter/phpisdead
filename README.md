@@ -23,4 +23,38 @@ https://dev.to/joemoses33/create-a-composer-package-how-to-29kn
 
 # The framework
 
-## 
+## Authentication
+
+## Authorization
+
+## Model
+
+## Controller
+
+## ORM
+
+## DB Migration
+
+## Notification
+
+## Mail
+
+## Storage
+
+## Queue
+
+## Task Scheduling
+
+## Testing
+
+## Events & WebSocket
+
+## Log
+
+## API
+
+## CSRF
+
+## Session
+
+## Template Engine
