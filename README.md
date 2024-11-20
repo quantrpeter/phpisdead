@@ -104,13 +104,13 @@ Inspired by established frameworks like Eloquent, our ORM aims to provide a seam
 Get the user record by id = 1
 
 ```php
-$record = $user->get(1);
+$record = $User->get(1);
 ```
 
 ### Example 2 - Read all records
 
 ```php
-$records = $user->getAll();
+$records = $User->getAll();
 vsar_dump($records);
 ```
 
