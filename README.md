@@ -114,7 +114,7 @@ $records = $User->getAll();
 var_dump($records);
 ```
 
-### Example 3 - Read all records with joining tabl
+### Example 3 - Read all records with joining table
 
 ```php
 $records = $User->articles->getAll();
