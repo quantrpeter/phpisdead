@@ -111,7 +111,14 @@ $record = $User->get(1);
 
 ```php
 $records = $User->getAll();
-vsar_dump($records);
+var_dump($records);
+```
+
+### Example 3 - Read all records with joining tabl
+
+```php
+$records = $User->articles->getAll();
+var_dump($records);
 ```
 
 ## DB Migration
