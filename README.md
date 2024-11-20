@@ -23,6 +23,44 @@ https://dev.to/joemoses33/create-a-composer-package-how-to-29kn
 
 # The framework
 
+## Install
+
+Create sample project by 
+
+```
+composer create-project quantr/phpisdead-sample-project:dev-main
+```
+
+## Startup
+
+The main file is index.php
+
+```
+<?php
+
+require_once 'vendor/autoload.php';
+
+use \Quantr\PhpIsDead\PhpIsDead;
+use \Quantr\PhpIsDead\Controller;
+use \Quantr\PhpIsDead\Request;
+
+class IndexController extends Controller
+{
+	function index(Request $request) {}
+	public static function a(Request $request)
+	{
+		echo "this is a<br>";
+	}
+}
+
+$phpIsDead = new PhpIsDead();
+$phpIsDead->start();
+$phpIsDead->router->add('/index', IndexController::class, 'index');
+echo $phpIsDead->router->toString();
+
+$phpIsDead->router->process($_SERVER['REQUEST_URI']);
+```
+
 ## Authentication
 
 ## Authorization
